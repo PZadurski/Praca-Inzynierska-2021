@@ -1,0 +1,534 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Test_1</name>
+    </assembly>
+    <members>
+        <member name="T:Test_1.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Test_1.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the Test_1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Test_1.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Test_1.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Test_1.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Test_1.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Test_1.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Test_1.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Test_1.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Test_1.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the Test_1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Test_1.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Test_1.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Test_1.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Test_1.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Test_1.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Test_1.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Test_1.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:Test_1.Recording2.repo">
+            <summary>
+            Holds an instance of the Test_1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Test_1.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Test_1.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Test_1.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Test_1.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Test_1.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Test_1.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Test_1.Test_1Repository">
+            <summary>
+            The class representing the Test_1Repository element repository.
+            </summary>
+        </member>
+        <member name="M:Test_1.Test_1Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Test_1Repository element repository.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1Repository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1Repository.BezTytułuGoogleChrome">
+            <summary>
+            The BezTytułuGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1Repository.GoogleGoogleChrome">
+            <summary>
+            The GoogleGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1Repository.O2SerceInternetu">
+            <summary>
+            The O2SerceInternetu folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1Repository.WebDocumentAto22OdebranePocztaO2">
+            <summary>
+            The WebDocumentAto22OdebranePocztaO2 folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1Repository.WirtualnaPolskaWszystkoCoWażneW">
+            <summary>
+            The WirtualnaPolskaWszystkoCoWażneW folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1Repository.WirtualnaPolskaWszystkoCoWażneW1">
+            <summary>
+            The WirtualnaPolskaWszystkoCoWażneW1 folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1Repository.MenedżerZadańGoogleChrome">
+            <summary>
+            The MenedżerZadańGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="T:Test_1.Test_1RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Test_1.Test_1RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test_1.Test_1RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Test_1.Test_1RepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test_1.Test_1RepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.ExplorerAppFolder.GoogleChrome">
+            <summary>
+            The GoogleChrome item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.ExplorerAppFolder.GoogleChromeInfo">
+            <summary>
+            The GoogleChrome item info.
+            </summary>
+        </member>
+        <member name="T:Test_1.Test_1RepositoryFolders.BezTytułuGoogleChromeAppFolder">
+            <summary>
+            The BezTytułuGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test_1.Test_1RepositoryFolders.BezTytułuGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BezTytułuGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.BezTytułuGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.BezTytułuGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.BezTytułuGoogleChromeAppFolder.Element2079172112">
+            <summary>
+            The Element2079172112 item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.BezTytułuGoogleChromeAppFolder.Element2079172112Info">
+            <summary>
+            The Element2079172112 item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.BezTytułuGoogleChromeAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.BezTytułuGoogleChromeAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="T:Test_1.Test_1RepositoryFolders.GoogleGoogleChromeAppFolder">
+            <summary>
+            The GoogleGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test_1.Test_1RepositoryFolders.GoogleGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GoogleGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.GoogleGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.GoogleGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.GoogleGoogleChromeAppFolder.PasekAdresuIWyszukiwania">
+            <summary>
+            The PasekAdresuIWyszukiwania item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.GoogleGoogleChromeAppFolder.PasekAdresuIWyszukiwaniaInfo">
+            <summary>
+            The PasekAdresuIWyszukiwania item info.
+            </summary>
+        </member>
+        <member name="T:Test_1.Test_1RepositoryFolders.O2SerceInternetuAppFolder">
+            <summary>
+            The O2SerceInternetuAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test_1.Test_1RepositoryFolders.O2SerceInternetuAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new O2SerceInternetu  folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.O2SerceInternetuAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.O2SerceInternetuAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.O2SerceInternetuAppFolder.Poczta">
+            <summary>
+            The Poczta item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.O2SerceInternetuAppFolder.PocztaInfo">
+            <summary>
+            The Poczta item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.O2SerceInternetuAppFolder.LoginForm">
+            <summary>
+            The LoginForm folder.
+            </summary>
+        </member>
+        <member name="T:Test_1.Test_1RepositoryFolders.LoginFormFolder">
+            <summary>
+            The LoginFormFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test_1.Test_1RepositoryFolders.LoginFormFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginForm  folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.LoginFormFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.LoginFormFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.LoginFormFolder.ZalogujSię">
+            <summary>
+            The ZalogujSię item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.LoginFormFolder.ZalogujSięInfo">
+            <summary>
+            The ZalogujSię item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.LoginFormFolder.Password">
+            <summary>
+            The Password item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.LoginFormFolder.PasswordInfo">
+            <summary>
+            The Password item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.LoginFormFolder.Username">
+            <summary>
+            The Username item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.LoginFormFolder.UsernameInfo">
+            <summary>
+            The Username item info.
+            </summary>
+        </member>
+        <member name="T:Test_1.Test_1RepositoryFolders.WebDocumentAto22OdebranePocztaO2AppFolder">
+            <summary>
+            The WebDocumentAto22OdebranePocztaO2AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test_1.Test_1RepositoryFolders.WebDocumentAto22OdebranePocztaO2AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new WebDocumentAto22OdebranePocztaO2  folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WebDocumentAto22OdebranePocztaO2AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WebDocumentAto22OdebranePocztaO2AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WebDocumentAto22OdebranePocztaO2AppFolder.OlwActionsLogout">
+            <summary>
+            The OlwActionsLogout item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WebDocumentAto22OdebranePocztaO2AppFolder.OlwActionsLogoutInfo">
+            <summary>
+            The OlwActionsLogout item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WebDocumentAto22OdebranePocztaO2AppFolder.WebElementSvg">
+            <summary>
+            The WebElementSvg item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WebDocumentAto22OdebranePocztaO2AppFolder.WebElementSvgInfo">
+            <summary>
+            The WebElementSvg item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WebDocumentAto22OdebranePocztaO2AppFolder.Avatar">
+            <summary>
+            The Avatar item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WebDocumentAto22OdebranePocztaO2AppFolder.AvatarInfo">
+            <summary>
+            The Avatar item info.
+            </summary>
+        </member>
+        <member name="T:Test_1.Test_1RepositoryFolders.WirtualnaPolskaWszystkoCoWażneWAppFolder">
+            <summary>
+            The WirtualnaPolskaWszystkoCoWażneWAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test_1.Test_1RepositoryFolders.WirtualnaPolskaWszystkoCoWażneWAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new WirtualnaPolskaWszystkoCoWażneW  folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WirtualnaPolskaWszystkoCoWażneWAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WirtualnaPolskaWszystkoCoWażneWAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WirtualnaPolskaWszystkoCoWażneWAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WirtualnaPolskaWszystkoCoWażneWAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="T:Test_1.Test_1RepositoryFolders.WirtualnaPolskaWszystkoCoWażneW1AppFolder">
+            <summary>
+            The WirtualnaPolskaWszystkoCoWażneW1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test_1.Test_1RepositoryFolders.WirtualnaPolskaWszystkoCoWażneW1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new WirtualnaPolskaWszystkoCoWażneW1  folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WirtualnaPolskaWszystkoCoWażneW1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.WirtualnaPolskaWszystkoCoWażneW1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Test_1.Test_1RepositoryFolders.MenedżerZadańGoogleChromeAppFolder">
+            <summary>
+            The MenedżerZadańGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Test_1.Test_1RepositoryFolders.MenedżerZadańGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MenedżerZadańGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.MenedżerZadańGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Test_1.Test_1RepositoryFolders.MenedżerZadańGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

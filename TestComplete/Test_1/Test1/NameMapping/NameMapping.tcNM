@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{CF264FE8-BEB5-4677-BCC0-4F181AB11F7C}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{A6DC2A78-C143-4BED-9907-B70762BA12CC}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageWwwO2Pl" Key="{04C472CB-AC8C-458F-B16D-242290BCFEB3}">
+								<Image FileName="761244212" Left="0" Top="103" Right="1680" Bottom="1010" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.o2.pl/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{EBE4B59B-BAA9-4F54-8C07-D3029BECA663}" ExtendedFind="True">
+										<Image FileName="-1960499537" Left="1042" Top="139" Right="1096" Bottom="157" />
+										<TypeInfo Item0="{ABDF28CB-488D-4ECE-A727-39226F5E891D}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="TextNode" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="Poczta" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="formLoginform" Key="{E52D0981-B16C-4028-B0B4-25BC7D460FDB}" ExtendedFind="True">
+										<Image FileName="-1131383287" Left="241" Top="216" Right="1422" Bottom="286" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Form" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="loginForm" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textboxUsername" Key="{9478C66A-0DFA-4CAC-915B-4A677C4EB557}" ExtendedFind="True">
+												<Image FileName="-1131383287" Left="433" Top="216" Right="770" Bottom="266" />
+												<TypeInfo Item0="{C4218081-3648-4C0F-8659-A8455882DABD}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textbox" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="username" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="passwordboxPassword" Key="{1EEAE976-00BC-4251-BBF8-BC2D7D609526}" ExtendedFind="True">
+												<Image FileName="-282452544" Left="786" Top="216" Right="1123" Bottom="266" />
+												<TypeInfo Item0="{C4218081-3648-4C0F-8659-A8455882DABD}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="PasswordBox" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="password" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="buttonZalogujSi" Key="{72327FC2-EAAF-4523-A9B2-307687C3B507}" ExtendedFind="True">
+												<Image FileName="1315535681" Left="1139" Top="216" Right="1287" Bottom="266" />
+												<TypeInfo Item0="{458275E9-7747-4BE5-B87F-E6310E1991D2}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Zaloguj się" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pagePocztaO2PlDMailsLabel1" Key="{B2FD83AA-03C5-4E60-A39B-05C875991705}">
+								<TypeInfo Item0="{79FEAFA4-00C9-4DA0-91DA-A27D91614469}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://poczta.o2.pl/d/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelNhModal" Key="{EA1EEDBF-9C2C-49A5-A510-BA857AA484AE}" ExtendedFind="True">
+										<Image FileName="82786440" Left="0" Top="730" Right="1680" Bottom="730" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="nh-modal" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{0CDB2A1A-FCCE-4EB2-8544-7081651F3B72}" ExtendedFind="True">
+												<Image FileName="82786440" Left="0" Top="103" Right="1680" Bottom="1010" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{B70EBD62-AF29-4F0E-A968-C1123D0C898B}" ExtendedFind="True">
+														<Image FileName="82786440" Left="0" Top="103" Right="1680" Bottom="1010" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{869A014A-A356-4DCB-9F6E-9C2F95850F7A}" ExtendedFind="True">
+																<Image FileName="82786440" Left="0" Top="103" Right="1680" Bottom="1010" />
+																<TypeInfo Item0="{ABDF28CB-488D-4ECE-A727-39226F5E891D}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{2AECDBE0-2F9F-4237-9385-EF127B13DEB1}" ExtendedFind="True">
+																		<Image FileName="82786440" Left="340" Top="377" Right="852" Bottom="395" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="Zaznacz wszystkie poniższe" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="vg" Key="{09E320C3-8656-468F-9B0C-828A5A1C2F29}" ExtendedFind="True">
+																				<Image FileName="82786440" Left="340" Top="375" Right="360" Bottom="395" />
+																				<TypeInfo Item0="{ABDF28CB-488D-4ECE-A727-39226F5E891D}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="SVG" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="0" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="link" Key="{36170BAE-3D3D-4DFE-B506-57D709D323A0}" ExtendedFind="True">
+																		<Image FileName="1801187218" Left="593" Top="615" Right="852" Bottom="653" />
+																		<TypeInfo Item0="{ABDF28CB-488D-4ECE-A727-39226F5E891D}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Link" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="Akceptuj i włącz 1login od WP" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="imageImg25657478Png" Key="{BD471E74-39FD-4EB9-9813-B786D3D8F60E}" ExtendedFind="True">
+										<Image FileName="-503605198" Left="1490" Top="116" Right="1514" Bottom="140" />
+										<TypeInfo Item0="{ABDF28CB-488D-4ECE-A727-39226F5E891D}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Image" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="img_256_5_74_78_png" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="linkOlwActionsLogout" Key="{4D795E2E-806C-4AB9-98E4-C40365A89AEE}" ExtendedFind="True">
+										<Image FileName="-398877152" Left="1199" Top="654" Right="1503" Bottom="673" />
+										<TypeInfo Item0="{ABDF28CB-488D-4ECE-A727-39226F5E891D}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Link" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="olw-actions-logout" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogout" Key="{4C00A4C5-C5A3-468C-B91D-CA112F8DFC8A}">
+								<Image FileName="82786440" Left="0" Top="103" Right="1680" Bottom="1010" />
+								<TypeInfo Item0="{79FEAFA4-00C9-4DA0-91DA-A27D91614469}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://1login.wp.pl/api/v1/public/ol-authprovider/logout*" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="BrowserWindow" Key="{8036B4F2-0DB9-46B4-96FE-AB744334A134}">
+								<Image FileName="-1240089090" Left="-8" Top="-8" Right="1688" Bottom="1018" />
+								<TypeInfo Item0="{E5A80B84-0502-4A93-878C-263A3E7CFA8F}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{A6DC2A78-C143-4BED-9907-B70762BA12CC}">
+			<Child Name="pageWwwO2Pl" Owner="{04C472CB-AC8C-458F-B16D-242290BCFEB3}">
+				<Child Name="textnode" Owner="{EBE4B59B-BAA9-4F54-8C07-D3029BECA663}" />
+				<Child Name="formLoginform" Owner="{E52D0981-B16C-4028-B0B4-25BC7D460FDB}">
+					<Child Name="textboxUsername" Owner="{9478C66A-0DFA-4CAC-915B-4A677C4EB557}" />
+					<Child Name="passwordboxPassword" Owner="{1EEAE976-00BC-4251-BBF8-BC2D7D609526}" />
+					<Child Name="buttonZalogujSi" Owner="{72327FC2-EAAF-4523-A9B2-307687C3B507}" />
+				</Child>
+			</Child>
+			<Child Name="pagePocztaO2PlDMailsLabel1" Owner="{B2FD83AA-03C5-4E60-A39B-05C875991705}">
+				<Child Name="panel" Owner="{869A014A-A356-4DCB-9F6E-9C2F95850F7A}">
+					<Child Name="vg" Owner="{09E320C3-8656-468F-9B0C-828A5A1C2F29}" />
+					<Child Name="link" Owner="{36170BAE-3D3D-4DFE-B506-57D709D323A0}" />
+				</Child>
+				<Child Name="imageImg25657478Png" Owner="{BD471E74-39FD-4EB9-9813-B786D3D8F60E}" />
+				<Child Name="linkOlwActionsLogout" Owner="{4D795E2E-806C-4AB9-98E4-C40365A89AEE}" />
+			</Child>
+			<Child Name="pageLogout" Owner="{4C00A4C5-C5A3-468C-B91D-CA112F8DFC8A}" />
+			<Child Name="BrowserWindow" Owner="{8036B4F2-0DB9-46B4-96FE-AB744334A134}" />
+		</Child>
+	</LogicalNodes>
+</Root>
